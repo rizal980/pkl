@@ -61,7 +61,7 @@ class Login extends CI_Controller{
 				redirect(base_url().'Operator');
 			}
 			else{
-				$this->session->set_flashdata('Alert', 'ih kamu mah');
+				$this->session->set_flashdata('Alert', 'ih gimana ini');
 				redirect(base_url('login'));
 			}
 			}
